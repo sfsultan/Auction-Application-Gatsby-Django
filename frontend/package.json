@@ -1,0 +1,26 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontend",
+  "author": "Fahd Sultan",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop -p 3500",
+    "start": "gatsby develop -p 3500",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "antd": "^4.16.13",
+    "gatsby": "^3.13.1",
+    "gatsby-plugin-antd": "^2.2.0",
+    "gatsby-plugin-create-client-paths": "^3.14.0",
+    "gatsby-plugin-image": "^1.14.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}

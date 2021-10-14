@@ -1,0 +1,10 @@
+.vscode/
+env/
+__pycache__/
+*.sqlite3
+*.sqlite3-journal
+*.zip
+node_modules/
+.cache/
+
+000*.py
