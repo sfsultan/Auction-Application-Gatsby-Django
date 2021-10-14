@@ -71,7 +71,7 @@ class Bid(models.Model):
     class Meta:
         verbose_name_plural = "Bids"
         ordering = ['-created_at']
-        unique_together = ['item', 'bid']
+        unique_together = ['item', 'bid'] # ENSURES THAT THE CONCURRENT REQUESTS FAIL WHEN PLACING THE SAME BID
 
     def __str__(self):
         return self.item.title + ' - ' +  str(self.bid)
