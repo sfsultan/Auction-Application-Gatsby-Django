@@ -1,4 +1,6 @@
-# Full-stack Test Task
+# Full-stack Auction Application
+
+This is a demo application built with Django and Gatsby.
 
 The project hierarchy is as follows:
 
