@@ -1,4 +1,4 @@
-# Full-stack Auction Application
+# Django + Gatsby : Auction Application
 
 This is a demo application built with Django and Gatsby.
 
